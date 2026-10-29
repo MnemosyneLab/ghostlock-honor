@@ -1,0 +1,24 @@
+{
+  "device_model": "HONOR 400",
+  "build": "DNY-N39 10.0.0.213(C636E4R3P2)",
+  "kernel_release": "5.15.180-android13-8-00018-g9b2308ac0ad6-ab14563692",
+  "kmi": "android13-5.15",
+  "stock_boot_sha256": {
+    "boot": "5a97c29279900512d9f3c073423d5904f02bc5cbd4209e1435d9c3cb355c28f9",
+    "init_boot": "5bc8cd5d42d61ebb35418973efa337316d1121ffca46d063120cbc7aa229bc5d",
+    "vbmeta": "b2cdf6089cee2803ab3d571dbe1e1e04f7e2fb7488c32879a84ad602b6343867"
+  },
+  "manager_package": "me.weishu.kernelsu",
+  "manager_version_code": 32680,
+  "manager_version": "v3.3.1",
+  "manager_apk_sha256": "b4a059ace71de2fa65cc7f12b1c58d55fc23ab25e057ee4230ce779742abe450",
+  "manager_loader_entry": "lib/arm64-v8a/libksud.so",
+  "manager_loader_sha256": "4f7d5fd65631915ea579ff406bd9cbe58217f2c91dac6527f5b2f28ad4508171",
+  "manager_release_url": "https://github.com/tiann/KernelSU/releases/tag/v3.3.1",
+  "assets": {
+    "profile.bin": {
+      "sha256": "d1de843b76d7a1a45a78b7618fd1c4a2150c94cfdd83e7c07f79c67d2d530064",
+      "bytes": 1969
+    }
+  }
+}

@@ -1,0 +1,18 @@
+GhostLock HONOR
+
+This project is a derivative fork of YuKongA/ghostlock-app:
+https://github.com/YuKongA/ghostlock-app
+Upstream revision: 437b3b257462e17d395cfd2cd8fb81536d6c6358
+
+The native runtime originates from that revision. Changes include a consumer
+stop acknowledgement fix and reproducible source-path mapping. The Android
+application adds HONOR-specific configuration, two explicit recovery paths,
+initialization, operation history and owner-requested marker reset.
+
+GhostLock and this derivative are distributed under Apache-2.0; see LICENSE.
+Shizuku API is distributed under MIT; see licenses/Shizuku-API-MIT.txt.
+AndroidX annotations are distributed under Apache-2.0.
+
+KernelSU is a separate GPL-3.0 project. Its loader is read from the installed
+manager and is not redistributed by this repository:
+https://github.com/tiann/KernelSU
