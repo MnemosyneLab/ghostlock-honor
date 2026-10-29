@@ -1,10 +1,20 @@
 # GhostLock HONOR
 
+简体中文 | [English](README.en.md)
+
 [ghostlock-app](https://github.com/YuKongA/ghostlock-app) 的衍生 fork，面向 HONOR 400 的临时 Root 恢复。提供独立恢复和 Shizuku 恢复，以及初始化、操作记录和手动标记重置。
 
 应用名称：`GhostLock HONOR`。包名：`dev.ghostlock.honor`。
 
 基于上游提交 `437b3b257462e17d395cfd2cd8fb81536d6c6358`。原生源码位于 `native/`，保留同步停止修复；Android 界面及恢复协调逻辑位于 `app/`。来源和许可证见 [NOTICE](NOTICE)。
+
+## 界面预览
+
+| Root 状态与恢复方式 | 独立恢复准备 |
+| --- | --- |
+| <img src="docs/images/recovery.png" alt="恢复页：Root 已就绪，独立恢复已启用" width="300"> | <img src="docs/images/settings.png" alt="设置页：独立恢复初始化与授权入口" width="300"> |
+
+截图来自实机中文界面，已裁去系统状态栏和导航手势区域，不包含账号、设备唯一标识或操作日志。画面状态仅代表截图时的设备状态。
 
 ## 支持范围
 
