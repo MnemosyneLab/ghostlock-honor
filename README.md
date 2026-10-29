@@ -8,10 +8,26 @@
 
 ## 支持范围
 
-- HONOR 400 / DNY-NX9
+- HONOR 400 海外版 / DNY-NX9
 - `DNY-N39 10.0.0.213(C636E4R3P2)`
 - 内核 `5.15.180-android13-8-00018-g9b2308ac0ad6-ab14563692`
 - KernelSU 官方管理器 `v3.3.1`
+
+### 地区版本差异与兼容限制
+
+HONOR 400 在不同市场使用不同硬件配置，不能仅凭商品名称判断兼容性：
+
+| 项目 | 中国大陆版 | 新加坡版 | 英国版 |
+| --- | --- | --- | --- |
+| 处理器 | 骁龙 7 Gen 4 | 骁龙 7 Gen 3 | 骁龙 7 Gen 3 |
+| 电池典型容量 | 7200mAh | 6000mAh | 5300mAh |
+| 有线快充 | 80W | 80W | 66W |
+
+规格来源：[荣耀中国大陆发布说明](https://www.honor.com/cn/news/honor-400-launch/)、[新加坡规格页](https://www.honor.com/sg/phones/honor-400/spec/)、[新加坡产品页](https://www.honor.com/sg/phones/honor-400/)、[英国产品页](https://www.honor.com/uk/phones/honor-400/)。表中的地区仅用于规格对比，不代表本项目在这些市场版本上均已验证。
+
+大陆版型号为 [DNN-AN00](https://developer.honor.com/cn/docs/game_center/guides/jieruzhinan/jixing)，海外版型号包括 [DNY-NX9](https://www.honor.com/uk/support/phones/honor-400/)。**目前仅验证了海外版 DNY-NX9，且仅限上列固件、完整内核版本与 KernelSU 管理器组合；不代表支持国行 DNN-AN00、其他地区版本、其他型号或其他固件及内核版本。** 即使同为 DNY-NX9，也不能推定所有地区固件兼容。上述海外型号本身不用于确定具体销售国家。
+
+地区版本或系统升级可能改变内核、驱动和启动镜像；其他组合需单独适配与验证，不能直接沿用现有配置或镜像。
 
 设备配置和固定哈希位于 `config/device.json`。其他固件不在支持范围内。Root 为临时状态，重启后失效；原生恢复可能失败或导致重启。本项目不刷写启动分区、不解锁 Bootloader，也不自动恢复。
 
